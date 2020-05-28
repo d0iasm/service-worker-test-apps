@@ -6,8 +6,8 @@
   "background_color": "#fff",
   "description": "test pwa app",
   "icons": [{
-    "src": "white.png",
+    "src": "white192.jpg",
     "sizes": "192x192",
-    "type": "image/png"
+    "type": "image/jpeg"
   }]
 }
