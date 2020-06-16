@@ -9,11 +9,11 @@ addEventListener('activate', event => {
 });
 
 addEventListener('fetch', event => {
-	event.respondWith((async () => {
-  	try {
-    	return await event.preloadResponse;
+  event.respondWith((async () => {
+    try {
+      return await event.preloadResponse;
     } catch (e) {
       return new Response("Hello Offline page");
-   	}
+    }
   })());
 });
